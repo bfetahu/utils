@@ -82,9 +82,9 @@
             <version>1.9</version>
         </dependency>
         <dependency>
-            <groupId>mallet</groupId>
-            <artifactId>mallet.lda</artifactId>
-            <version>2.0.7</version>
+            <groupId>cc.mallet</groupId>
+            <artifactId>mallet</artifactId>
+            <version>2.0.8</version>
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
