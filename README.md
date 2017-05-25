@@ -3,6 +3,7 @@
 
 ## To parse a Wikipedia article  (in XML format), you can use the following code snippet. 
 
+```
 WikipediaEntity entity = new WikipediaEntity();
 entity.setTitle(entity_name); //set the title of the Wikipedia article
 entity.setMainSectionsOnly(true); //determine whether you wanna extract only main sections, or the nested sections
@@ -10,11 +11,12 @@ entity.setSplitSections(true); //determine if you are interested in parsing and 
 entity.setCleanReferences(true); //flag if you wanna remove the [File] references within the article
 entity.setExtractReferences(false); //flag if you want to extract and parse the references from the article
 entity.setContent(entity_text); //set the actual XML content of the article
-
+```
 
 
 ## Output all the extracted citations for a Wikipedia article.
-<code>
+
+```
 Map<Integer, Map<String, String>> citations = entity.getEntityCitations();
 Map<Integer, Map<String, List<String>>> citing_statements = entity.getCitingStatements();
 
@@ -32,4 +34,4 @@ for (int cite_id : citing_statements.keySet()) {
         }
     }
 }
-</code>
+```
