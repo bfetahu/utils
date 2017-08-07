@@ -24,6 +24,11 @@
             <artifactId>fel</artifactId>
             <version>0.1</version>
         </dependency>
+        <dependency>
+            <groupId>de.mpi.aida</groupId>
+            <artifactId>aida</artifactId>
+            <version>3.0.5</version>
+        </dependency>
     </dependencies>
 
 
