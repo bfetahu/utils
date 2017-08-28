@@ -3,10 +3,11 @@
   <groupId>de.l3s.fetahu</groupId>
   <artifactId>wiki_utils</artifactId>
   <versioning>
-    <release>1.8</release>
+    <release>1.9</release>
     <versions>
       <version>1.8</version>
+      <version>1.9</version>
     </versions>
-    <lastUpdated>20170812223946</lastUpdated>
+    <lastUpdated>20170828133919</lastUpdated>
   </versioning>
 </metadata>
